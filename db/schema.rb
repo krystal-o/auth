@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(version: 2022_02_21_190705) do
   end
 
   create_table "users", force: :cascade do |t|
+    #Our salespersons are users so it's the salespeople table
     t.string "first_name"
     t.string "last_name"
     t.string "email"
